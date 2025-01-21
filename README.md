@@ -22,20 +22,23 @@ When using multiple Git accounts via HTTPS, you can still configure Git to handl
 
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/Personal%20Access%20Tokens%20(PAT).png">
 <br>
+<br>
+<br>
 **You can view two option, click on Tokens**
 
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/tokenInGit.png">
 <br>
-<br>
 **Steps 5: You can add token by clicking Generate new token and select the permission and click on generate**
-
+<br>
+<br>
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/AccessToken.png">
 
 **Steps :Here you have your token Ready.**
 
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/tokengenerate.png">
 
-**Steps :**
+##let's configuration in git and VSCode
+**Steps 6: **
 
 
 **Steps 2:**
