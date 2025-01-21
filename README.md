@@ -16,29 +16,26 @@ When using multiple Git accounts via HTTPS, you can still configure Git to handl
 **Steps 3: Click on Developer Setting**
 
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/Developer%20Option.png">
-<br>
-<br>
-**Steps 4: click on Personal Access token.**
+
+**Steps 4: click on Personal Access token**
 
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/Personal%20Access%20Tokens%20(PAT).png">
-<br>
-<br>
-<br>
+
 **You can view two option, click on Tokens**
 
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/tokenInGit.png">
-<br>
+
 **Steps 5: You can add token by clicking Generate new token and select the permission and click on generate**
-<br>
-<br>
+
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/AccessToken.png">
 
-**Steps :Here you have your token Ready.**
+**Here you have your token Ready.**
 
 <img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/tokengenerate.png">
 
-##let's configuration in git and VSCode
-**Steps 6: **
+## Let's configuration in git and VSCode:
+
+**Steps 1: **
 
 
 **Steps 2:**
