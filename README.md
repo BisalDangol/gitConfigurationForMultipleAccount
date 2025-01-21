@@ -9,9 +9,12 @@ When using multiple Git accounts via HTTPS, you can still configure Git to handl
 
 Steps 1: Open git bash if you are using windows otherwise OS's terminal can work perfectly
 
+Steps 2: Open your github page and navigate through it.
+
 Steps 2: 
-
-
+   ```bash
+   git config --global user.name
+  ```
 ## Advantages of Using HTTPS:
 1. Ease of Setup: HTTPS is easier to set up than SSH, especially for new users or environments that don’t support SSH keys (e.g., corporate environments or shared servers). You only need to enter your username and password (or PAT) for authentication.
 2. No Need for SSH Keys: HTTPS avoids the need to generate and manage SSH keys. This is especially useful if you're working on a machine where SSH key configuration is difficult or impractical.
