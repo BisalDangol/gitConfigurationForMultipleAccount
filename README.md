@@ -7,14 +7,33 @@ Using HTTPS for multiple Git accounts is a simpler and more secure way to authen
 ## Managing Multiple Accounts with HTTPS:
 When using multiple Git accounts via HTTPS, you can still configure Git to handle different credentials for different repositories. Unlike SSH keys, which require configuring SSH agent and key files, HTTPS authentication typically relies on username and password or personal access tokens (PATs) for secure login. Followig steps can help to setup the multiple account in git bash.
 
-Steps 1: Open git bash if you are using windows otherwise OS's terminal can work perfectly
+**Steps 1: Open git bash if you are using windows otherwise OS's terminal can work perfectly**
 
-Steps 2: Open your github page and navigate through it.
+**Steps 2: Open your github page and navigate through it.**
 
-Steps 2: 
+<img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/Seting%20in%20Github.png">
+
+**Steps 3: Click on Developer Setting**
+
+<img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/Developer%20Option.png">
+
+**Steps 4: click on Personal Access token. You can view more option click on Tokens**
+
+<img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/Personal%20Access%20Tokens%20(PAT).png">
+<img src="https://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/tokenInGit.png">
+
+
+**Steps :**
+**Steps :**
+**Steps :**
+
+
+**Steps 2:**
    ```bash
    git config --global user.name
   ```
+
+http://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/tokenInGit.png
 ## Advantages of Using HTTPS:
 1. Ease of Setup: HTTPS is easier to set up than SSH, especially for new users or environments that don’t support SSH keys (e.g., corporate environments or shared servers). You only need to enter your username and password (or PAT) for authentication.
 2. No Need for SSH Keys: HTTPS avoids the need to generate and manage SSH keys. This is especially useful if you're working on a machine where SSH key configuration is difficult or impractical.
