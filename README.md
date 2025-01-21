@@ -5,12 +5,14 @@ Managing multiple Git accounts on a single machine can be done by configuring Gi
 Using HTTPS for multiple Git accounts is a simpler and more secure way to authenticate with repositories, especially in situations where SSH may not be as convenient. For example, when working on machines without SSH key support or in environments with strict network restrictions, HTTPS provides an effective solution.
 
 ## Managing Multiple Accounts with HTTPS:
-When using multiple Git accounts via HTTPS, you can still configure Git to handle different credentials for different repositories. Unlike SSH keys, which require configuring SSH agent and key files, HTTPS authentication typically relies on username and password or personal access tokens (PATs) for secure login.
+When using multiple Git accounts via HTTPS, you can still configure Git to handle different credentials for different repositories. Unlike SSH keys, which require configuring SSH agent and key files, HTTPS authentication typically relies on username and password or personal access tokens (PATs) for secure login. Followig steps can help to setup the multiple account in git bash.
+
+Steps 1: Open git bash if you are using windows otherwise OS's terminal can work perfectly
+
+Steps 2: 
 
 
-
-
-##Advantages of Using HTTPS:
+## Advantages of Using HTTPS:
 1. Ease of Setup: HTTPS is easier to set up than SSH, especially for new users or environments that don’t support SSH keys (e.g., corporate environments or shared servers). You only need to enter your username and password (or PAT) for authentication.
 2. No Need for SSH Keys: HTTPS avoids the need to generate and manage SSH keys. This is especially useful if you're working on a machine where SSH key configuration is difficult or impractical.
 3. Cross-Platform Compatibility: HTTPS is universally supported and works on any platform without the need for additional configurations like SSH agents or key files. It works in environments where SSH might be restricted (e.g., firewalls blocking SSH traffic).
