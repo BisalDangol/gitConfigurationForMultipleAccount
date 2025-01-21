@@ -35,15 +35,39 @@ When using multiple Git accounts via HTTPS, you can still configure Git to handl
 
 ## Let's configuration in git and VSCode:
 
-**Steps 1: **
+**Steps 1: Open terminal and enter following command to verify default user**
+```bash
+git config user.name
+```
 
-
-**Steps 2:**
+**Steps 2:** Enter following command to switch username and email
    ```bash
-   git config --global user.name
+   git config user.name "<username_of_github_where_you_want_to_send_files>"
+
+   git config user.email "<useremail_of_github_where_you_want_to_send_files>"
+   
   ```
 
-http://github.com/BisalDangol/gitConfigurationForMultipleAccount/blob/main/tokenInGit.png
+**Steps 3:** let's add remote track of file using following command
+   ```bash
+   git remote add origin http://<token>@github.com/<username>/<repo name>.git
+  ```
+
+**if you are encountering issue try following command:
+   ```bash
+   git remote remove origin
+
+   git remote add origin http://<token>@github.com/<username>/<repo name>.git
+  ```
+
+
+**Steps 4:** Enter following command to push your files to the repository.
+   ```bash
+   git push --set-upstream origin <branch name>
+  ```
+
+
+
 ## Advantages of Using HTTPS:
 1. Ease of Setup: HTTPS is easier to set up than SSH, especially for new users or environments that don’t support SSH keys (e.g., corporate environments or shared servers). You only need to enter your username and password (or PAT) for authentication.
 2. No Need for SSH Keys: HTTPS avoids the need to generate and manage SSH keys. This is especially useful if you're working on a machine where SSH key configuration is difficult or impractical.
