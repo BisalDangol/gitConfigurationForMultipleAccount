@@ -20,3 +20,6 @@ When using multiple Git accounts via HTTPS, you can still configure Git to handl
 ## Disadvantage of Using Https:
 - Frequent Credential Entry: Without credential caching, you may need to enter your username and password (or token) every time you interact with the repository.
 
+# Conclusion:
+Using HTTPS to manage multiple Git accounts is a good choice when we prioritize simplicity and compatibility across platforms. By caching credentials or using a credential manager, we can minimize the need to manually enter credentials, making it almost as convenient as SSH, but without the need for managing SSH keys.
+#
