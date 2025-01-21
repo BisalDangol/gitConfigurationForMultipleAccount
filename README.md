@@ -1,0 +1,2 @@
+# gitConfigurationForMultipleAccount
+gitConfigurationForMultipleAccount using Https
